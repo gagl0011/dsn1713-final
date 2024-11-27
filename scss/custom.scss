@@ -1,7 +1,12 @@
 // include variable overides here 
 
 
-$primary: rgba(#D7D0C4, 0.25);
+$primary:#D7D0C4;
+$secondary:#372114;
+$success: #297C52;
+
+$nav-link-color: #372114;
+$nav-link-hover-color: darken($secondary, 10%);
 
 
 
@@ -10,6 +15,13 @@ $primary: rgba(#D7D0C4, 0.25);
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.icon i {
+    font-size: 1.5rem;;
+    color: $secondary;
+}
+
+
 
 // add additional custom code here
 
