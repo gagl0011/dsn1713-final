@@ -1,5 +1,5 @@
 // include variable overides here 
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 $primary:#D7D0C4;
 $secondary:#372114;
@@ -7,6 +7,24 @@ $success: #297C52;
 
 $nav-link-color: #372114;
 $nav-link-hover-color: darken($secondary, 10%);
+
+$font-family-sans-serif: "Lato", sans-serif;
+$font-family-serif: "Merriweather", serif;
+
+p {
+    font-family: "Merriweather", serif;
+    color: $secondary;
+}
+
+
+h1,h2,h3,h4,h5 {
+    font-family: "Lato", sans-serif;
+    color: $secondary;
+}
+
+
+
+
 
 
 
@@ -22,6 +40,18 @@ $nav-link-hover-color: darken($secondary, 10%);
 }
 
 
+.card-title {
+    text-transform: uppercase;
+    text-align: left;
 
+    
+}
+
+.card-sub-title {
+    font-family: "Merriweather";
+    text-transform: capitalize;
+    padding-left: .5rem;
+    color: $primary;
+}
 // add additional custom code here
 
