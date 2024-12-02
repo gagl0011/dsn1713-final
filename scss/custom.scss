@@ -4,6 +4,7 @@
 $primary:#D7D0C4;
 $secondary:#372114;
 $success: #297C52;
+$bs-primary-text-emphasis: rgb(147, 127, 100);
 
 $nav-link-color: #372114;
 $nav-link-hover-color: darken($secondary, 10%);
@@ -21,6 +22,11 @@ h1,h2,h3,h4,h5 {
     font-family: "Lato", sans-serif;
     color: $secondary;
 }
+
+.hr-secondary {
+    border-top: 1px solid $secondary;
+    opacity: 1;
+  }
 
 
 
@@ -51,7 +57,14 @@ h1,h2,h3,h4,h5 {
     font-family: "Merriweather";
     text-transform: capitalize;
     padding-left: .5rem;
-    color: $primary;
+    color: $bs-primary-text-emphasis;
 }
+
+.img-width {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
 // add additional custom code here
 

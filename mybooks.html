@@ -13,7 +13,7 @@
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="images/goodreads-logo.svg" alt="goodreads logo" width="auto" height="30">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,10 +22,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">My Books</a>
+                            <a class="nav-link" href="mybooks.html">My Books</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Browse</a>
@@ -44,61 +44,183 @@
             </div>
         </nav>
     </header>
-                             
-            
-            
 
-
-
-
-           
+    <section class="m-4 pt-3">
+        <h1>My Books</h1>
     </section>
 
-    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-        <div class="col mb-3">
-          <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-          <p class="text-body-secondary">© 2024</p>
+    <hr class="hr-secondary">
+
+    <section class="bg-primary bg-opacity-25 currently-reading py-5 mb-5">
+        <div class="container">
+            <h2 class="text-center text-secondary mb-4">Currently Reading</h2>
+            <div class="row">
+                <!-- Book Card 1 -->
+                <div class="col-lg-6 my-3">
+                    <div class="card h-100 p-3">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4 ">
+                                <img src="images/the-dark-mirror.jpg" class="img-fluid rounded-start" alt="Card Image">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Dark Mirror</h5>
+                                    <p class="card-text">Samantha Shannon - 4.66 (77 ratings)</p>
+                                    <button type="button" class="btn rounded-pill btn-success mb-3">Update Progress</button>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Book Card 2 -->
+                <div class="col-lg-6 my-3">
+                    <div class="card h-100 p-3">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4">
+                                <img src="images/lady-macbeth.jpg" class="img-fluid rounded-start" alt="Card Image">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lady Macbeth</h5>
+                                    <p class="card-text">Ava Reid - 3.54 (963 ratings)</p>
+                                    <button type="button" class="btn rounded-pill btn-success mb-3">Update Progress</button>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50% </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    
-        <div class="col mb-3">
-    
-        </div>
-    
-        <div class="col mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-    
-        <div class="col mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-    
-        <div class="col mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
+    </section>
+
+    <section>
+        <h2 class="text-center pb-3">BOOKSHELVES</h2>
+        <div class="container">
+            <h4 class="pb-3">WANT TO READ</h2>
+            <div class="row">
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/the-way-of-kings.jpg" class="img-fluid" alt="Image 1">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/nocticadia.jpg" class="img-fluid" alt="Image 2">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/an-education-in-malice.jpg" class="img-fluid" alt="Image 3">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/heir.jpg" class="img-fluid" alt="Image 4">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/oathbringer.jpg" class="img-fluid" alt="Image 5">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/the-games-gods-play.jpg" class="img-fluid" alt="Image 5">
+            </div>
+            </div>
+        </div>  
+        
+        <hr class="hr-secondary pb-3">
+
+        <div class="container">
+            <h4 class="pb-3">PHYSICAL TBR</h2>
+            <div class="row">
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/gothikana.jpg" class="img-fluid" alt="Image 1">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/lady-macbeth.jpg" class="img-fluid" alt="Image 2">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/tell-me-im-worthless.jpg" class="img-fluid" alt="Image 3">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/nocticadia.jpg" class="img-fluid" alt="Image 4">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/the-paradise-problem.jpg" class="img-fluid" alt="Image 5">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/an-education-in-malice.jpg" class="img-fluid" alt="Image 5">
+            </div>
+            </div>
+        </div>  
+        
+        <hr class="hr-secondary pb-3">
+
+        <div class="container">
+            <h4 class="pb-3">FANTASY</h2>
+            <div class="row">
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/phantasma.jpg" class="img-fluid" alt="Image 1">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/immortal-dark.jpg" class="img-fluid" alt="Image 2">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <a href="book.html">
+                    <img src="images/the-bone-season.jpg" class="img-fluid" alt="Image 3">
+                </a>
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/somewhere-beyond-the-sea.jpg" class="img-fluid" alt="Image 4">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/so-thirsty.jpg" class="img-fluid" alt="Image 5">
+            </div>
+            <div class="col-lg-2 col-sm-4 mb-3">
+                <img src="images/a-dark-and-drowning-tide.jpg" class="img-fluid" alt="Image 5">
+            </div>
+            </div>
+        </div> 
+    </section> 
+            
+    <footer class="bg-primary py-4 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h5 class="mb-3 text-secondary">Company</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-secondary">About Us</a></li>
+                <li><a href="#" class="text-secondary">Careers</a></li>
+                <li><a href="#" class="text-secondary">Terms</a></li>
+                <li><a href="#" class="text-secondary">Privacy</a></li>
+                <li><a href="#" class="text-secondary">Interest Based Ads</a></li>
+                <li><a href="#" class="text-secondary">Ad Preferences</a></li>
+                <li><a href="#" class="text-secondary">Help</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h5 class="mb-3 text-secondary">Work With Us</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-secondary">Authors</a></li>
+                <li><a href="#" class="text-secondary">Advertise</a></li>
+                <li><a href="#" class="text-secondary">Authors and Ad Blog</a></li>
+                <li><a href="#" class="text-secondary">API</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h5 class="mb-3 text-secondary">Connect</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-secondary">Facebook</a></li>
+                <li><a href="#" class="text-secondary">Twitter</a></li>
+                <li><a href="#" class="text-secondary">Instagram</a></li>
+                <li><a href="#" class="text-secondary">Linkedin</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 text-center">
+              <small>
+                <a href="#" class="text-secondary me-2">&copy; 2024 - Goodreads, Inc | All rights reserved </a>
+              </small>
+            </div>
+          </div>
         </div>
       </footer>
-
 </body>
 </html>
