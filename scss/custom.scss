@@ -3,6 +3,7 @@
 
 $primary:#D7D0C4;
 $secondary:#372114;
+$info:#937F64;
 $success: #297C52;
 $bs-primary-text-emphasis: rgb(147, 127, 100);
 
@@ -41,10 +42,9 @@ h1,h2,h3,h4,h5 {
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 .icon i {
-    font-size: 1.5rem;;
+    font-size: 1.5rem;
     color: $secondary;
 }
-
 
 .card-title {
     text-transform: uppercase;
@@ -66,5 +66,18 @@ h1,h2,h3,h4,h5 {
     height: auto;
 }
 
+
+.fw-bold {
+    text-transform: uppercase;
+    margin: 0;
+    color: #372114;
+}
+
+
+.follow {
+    text-transform: lowercase;
+    margin: 0;
+    color: #D7D0C4;
+}
 // add additional custom code here
 

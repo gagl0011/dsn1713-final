@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/custom.css">
-    <title>dsn1713 final</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/custom.css">
+        <title>dsn1713 final</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">   
+    </head>
 <body>
 
     <!-- navbar -->
@@ -50,19 +52,19 @@
     <section class="hero text-center py-5">
         <div class="container d-flex flex-column flex-lg-row align-items-center">
             <div class="hero-content col-lg-6 me-lg-5 text-center">
-                <h1 class="display-5 text-secondary">Discover Your Top Recommendations</h1>
+                <h1 class="display-5 text-secondary animate__animated animate__fadeIn">Discover Your Top Recommendations</h1>
                 <p>Browse our curated selection of must-read books. Whether you’re in the mood for romance, mystery, or fantasy, we’ve got you covered!</p>
                 <a href="#" class="btn rounded-pill btn-success">Explore Your Picks</a>
             </div>
             <div class="hero-img col-lg justify-content-center"></div>
-            <img src="images/header.jpg" alt="books lined up in a row" width="500" height="auto">
+            <img src="images/header.jpg" class="p-sm-3" alt="books lined up in a row" width="500" height="auto">
         </div>
     </section>
 
     <!-- currently reading -->
     <section class="bg-primary bg-opacity-25 currently-reading py-5">
         <div class="container">
-            <h2 class="text-center text-secondary mb-4">CURRENTLY READING</h2>
+            <h2 class="text-center text-secondary mb-4 animate__animated animate__fadeIn">CURRENTLY READING</h2>
             <div class="row">
                 <!-- Book Card 1 -->
                 <div class="col-lg-6 my-3">
@@ -112,7 +114,7 @@
 
     <section class="updates py-5">
             <div class="container my-5">
-                <h2 class="text-center text-secondary mb-4">UPDATES</h2>
+                <h2 class="text-center text-secondary mb-4 animate__animated animate__fadeIn">UPDATES</h2>
                 <p class="text-center pb-3">Never miss an update from friends, groups and discussions that you follow. We have collected it all for you here.</p>
                 <div class="card h-100 p-3 bg-primary bg-opacity-25">
                     <div class="row g-0 align-items-center">
@@ -257,5 +259,7 @@
           </div>
         </div>
       </footer>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
